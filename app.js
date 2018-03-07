@@ -13,6 +13,8 @@ var app = express();
 
 // hbs.registerPartial(__dirname + '/views/partials');
 
+app.use(express.static(__dirname + '/public'));
+
 app.set('view engine', 'hbs');
 
 app.get('/',(req, res) => {
@@ -29,10 +31,10 @@ app.get('/',(req, res) => {
         data: core.paramsForRequest
     }).then((response) => {
     
-        //res.send(JSON.stringify(response.data));
         res.render('index.hbs', {
             pageTitle: response.data.settings.settings.name,
             smallDescription: response.data.settings.settings.smallDescription,
+            fullDescription: response.data.settings.settings.fullDescription,            
             companyImage: response.data.settings.settings.aboutImage,
             pageUrl: fullUrl
         });

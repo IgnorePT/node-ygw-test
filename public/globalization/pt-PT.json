@@ -1,0 +1,35 @@
+{
+    "hello" : "olá",
+    "profile" : "perfil",
+    "about" : "sobre ",
+    "contact" : "contacto ",
+    "callUs" : "Ligue",
+    "address" : "morada",
+    "services" : "serviços",
+    "subscribe" : "subscrever",
+    "submit_message" : "Submeter Mensagem",
+
+
+    "newsletter_text" : "Inscreva na nossa newsletter, e fique a par das novidades",
+    "demo_text" : "Este é um texto demostrativo daquilo que é possivel fazer",
+    "seeOurApps_txt" : "Quer ver as nossas apps?",
+    "seeOurApps" : "ver aplicações",
+    "seeMap": "ver mapa",
+    "closeMap": "fechar mapa",
+
+    "inputs_requires_message" : "todos os campos devem ser preenchidos",
+    
+
+
+    "branding" : "Criação Marca",
+    "webdesign_txt" : "Design Web",
+    "graphicdesign_txt" : "Design Grafico",
+    "development_txt" : "Desenvolvimento",
+    "photography_txt" : "fotografia",
+
+    "whythaychooseus_txt" : "PORQUE NOS ESCOLHEM?",
+    "wearecreative_txt" : "somos criativos",
+    "weareponctual_txt" : "somos pontuais",
+    "wearemagic_txt" : "temos a magia"
+
+}

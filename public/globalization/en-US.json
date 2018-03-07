@@ -1,0 +1,38 @@
+{
+   "hello" : "hello",
+    "profile" : "profile",
+    "about" : "about ",
+    "contact" : "contact ",
+    "email" : " email",
+    "callUs" : "call",
+    "address" : "address",
+    "services" : "services",
+    "subscribe" : "subscribe",
+    "submit_message" : "submit message",
+    
+    "newsletter_text" : "subscrive our newsletter, and get our promotions",
+    "demo_text" : "this is a example text, to show what is possible to make",
+    "seeOurApps_txt" : "want to see our apps?",
+    "seeOurApps" : "see aplications",
+    "seeMap": "see map",
+    "closeMap": "close map",
+
+
+    "inputs_requires_message" : "All the fields are required",
+    
+
+
+    "branding" : "branding",
+    "webdesign_txt" : "web Design",
+    "graphicdesign_txt" : "graphic design",
+    "development_txt" : "development",
+    "photography_txt" : "photography",
+
+    "whythaychooseus_txt" : "why they choose us?",
+    "wearecreative_txt" : "we are creative",
+    "weareponctual_txt" : "we are punctual",
+    "wearemagic_txt" : "we have the magic"
+    
+    
+  
+}
