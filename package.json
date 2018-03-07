@@ -1,0 +1,26 @@
+{
+  "name": "yugoweb-server",
+  "version": "1.0.0",
+  "description": "Yu Go Web Client server",
+  "main": "app.js",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "express": "^4.16.2",
+    "hbs": "^4.0.1",
+    "request": "^2.83.0",
+    "yargs": "^11.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Yu",
+    "Go",
+    "Web"
+  ],
+  "author": "Nelson Fernandes",
+  "license": "ISC"
+}
