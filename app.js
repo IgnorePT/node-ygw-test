@@ -17,6 +17,8 @@ app.set('view engine', 'hbs');
 
 app.get('/',(req, res) => {
 
+    var fullUrl = req.protocol + '://' + req.get('host') + req.originalUrl;
+
     axios({
         url: url,
         method: 'post',
@@ -31,7 +33,8 @@ app.get('/',(req, res) => {
         res.render('index.hbs', {
             pageTitle: response.data.settings.settings.name,
             smallDescription: response.data.settings.settings.smallDescription,
-            companyImage: response.data.settings.settings.aboutImage
+            companyImage: response.data.settings.settings.aboutImage,
+            pageUrl: fullUrl
         });
     
     }).catch((err) => {
