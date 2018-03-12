@@ -5,8 +5,11 @@
   "main": "app.js",
   "dependencies": {
     "axios": "^0.18.0",
+    "cookie-parser": "^1.4.3",
     "express": "^4.16.2",
     "hbs": "^4.0.1",
+    "i18n": "^0.8.3",
+    "object-mapper": "^5.0.0",
     "request": "^2.83.0",
     "yargs": "^11.0.0"
   },
@@ -15,7 +18,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start" : "node app.js"
+    "start": "node app.js"
   },
   "keywords": [
     "Yu",
